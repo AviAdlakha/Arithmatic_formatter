@@ -4,7 +4,8 @@ from pytest import main
 from arithmetic_arranger import arithmetic_arranger
 
 
-print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]))
+print(arithmetic_arranger(["32 + 8698", "3801 - 2", "45 + 43", "123 + 49"],True))
+print(arithmetic_arranger(['1 + 2', '1 - 9380']))
 
 
 # Run unit tests automatically
